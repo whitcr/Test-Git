@@ -1,0 +1,46 @@
+whitc@whitcr0k MINGW64 /c/Imprtnt/INTITA/Test-Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+whitc@whitcr0k MINGW64 /c/Imprtnt/INTITA/Test-Git (main)
+$ git branch
+  files
+* main
+
+whitc@whitcr0k MINGW64 /c/Imprtnt/INTITA/Test-Git (main)
+$ git log
+commit 6258962771b1a117e062d0328ca546f705c2c4d6 (HEAD -> main, origin/main)
+Author: Denis <94221288+whitcr@users.noreply.github.com>
+Date:   Sat May 27 12:11:41 2023 +0200
+
+    Create Test file
+
+commit af2dc838500367ef88ba32172c1601548f8029e3
+Merge: 13b8446 126a299
+Author: whitcr <whitcr0k@gmail.com>
+Date:   Sat May 27 12:10:44 2023 +0200
+
+    Solve merge conflict main and files branches
+
+commit 13b84460cf31dc58ad289401f0802a6fa43f511c
+Author: whitcr <whitcr0k@gmail.com>
+Date:   Sat May 27 12:09:03 2023 +0200
+
+    Add div test to Document.txt file
+
+commit 126a29927a0055dafa3157576c6131916ecc4adf (origin/files, files)
+Author: whitcr <whitcr0k@gmail.com>
+Date:   Sat May 27 12:06:55 2023 +0200
+
+
+whitc@whitcr0k MINGW64 /c/Imprtnt/INTITA/Test-Git (main)
+$ git log --merges
+commit af2dc838500367ef88ba32172c1601548f8029e3
+Merge: 13b8446 126a299
+Author: whitcr <whitcr0k@gmail.com>
+Date:   Sat May 27 12:10:44 2023 +0200
+
+    Solve merge conflict main and files branches
